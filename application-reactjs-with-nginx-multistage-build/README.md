@@ -40,7 +40,7 @@ React has been designed for gradual adoption from the start, and **you can use a
 
 
 # Docker Compose frequently used docker-compose and docker standalonecommands 
-Below are the freque
+Below are the frequently used commands :
 
 - `docker compose up` to start building and running the container 
 - `docker compose up -d` to start building and running the container as a daemon service 
@@ -48,6 +48,8 @@ Below are the freque
 - `docker ps` to see all running container
 - `docker logs CONTAINER_NAME` to see the logs of the specified container
 
+For more commands description use the `--help` command or refer to the [docker standalone](https://docs.docker.com/engine/reference/run/) & [docker compose documentation](https://docs.docker.com/engine/reference/commandline/compose/)
+ 
 
 # References
 
