@@ -24,7 +24,7 @@ React has been designed for gradual adoption from the start, and **you can use a
 
 
 
-# Deploy a React web appplication with docker 
+# Deploy a React web appplication with docker compose
 * Clone/Copy/Download the application-reactjs-with-nginx-multistage-build folder 
 
 * Run the container engine (docker/podman) command to start container image build & start the container with : 
@@ -32,6 +32,21 @@ React has been designed for gradual adoption from the start, and **you can use a
 
 * Alternatively you can start the container with custom shell script with the command below :
 `bash deploy deploy-container-nodejs-18-serve.sh`
+![alt-text](https://github.com/Adhito/learning-docker-standalone/blob/main/application-reactjs-with-nginx-multistage-build/screenshots/Screenshot%202023-12-21%20165228.png?raw=true)
+
+* Check the local url at `http://localhost:10000` to ensure that the app is running
+![alt-text](https://github.com/Adhito/learning-docker-standalone/blob/main/application-reactjs-with-nginx-multistage-build/screenshots/Screenshot%202023-12-21%20165517.png?raw=true)
+
+
+
+# Docker Compose frequently used docker-compose and docker standalonecommands 
+Below are the freque
+
+- `docker compose up` to start building and running the container 
+- `docker compose up -d` to start building and running the container as a daemon service 
+- `docker compose down` to stop and destroy the container
+- `docker ps` to see all running container
+- `docker logs CONTAINER_NAME` to see the logs of the specified container
 
 
 # References
