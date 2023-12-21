@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: node_18_react_app_container
+    image: node_18_react_app_image
+    build:
+      context: .
+    ports: 
+      - 10000:80
